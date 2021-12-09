@@ -1,0 +1,168 @@
+html, body {
+  background-color: #b9e1d5;
+  margin: 10px;
+  font-size: 40px;
+  font-family: "Tuna"
+}
+
+@media only screen and (max-width: 600px) {
+div {
+flex-wrap: wrap;
+
+  }
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+
+
+h1 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+h2 {
+  color: #6460ab;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h3 {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+
+}
+
+p {
+  color: black;
+  font-size: 0.5em;
+}
+
+
+
+.flexbox-header > div {
+
+  font-size: 0.5em;
+  padding: 20px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+
+.flexbox-header {
+  background-color: #6460ab;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: -2px
+}
+
+a:link, a:visited {
+ color: white;
+ text-decoration: none;
+ padding: 20px 20px;
+
+}
+
+a:hover{
+ color:#6460ab;
+ text-decoration: none;
+ padding: 20px 20px;
+ background-color: white;
+}
+
+
+
+
+.OM-MIG-BAR {
+    background-color: #6460ab;
+    padding: 0 40px;
+}
+
+
+
+}
+
+.menu {
+    background-color: #6460ab;
+}
+
+.content {
+    background-color: white;
+
+}
+
+
+.footer {
+    background-color: #6460ab;
+}
+
+.grid-page > div {
+    color: white;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.grid-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px;
+}
+
+
+.b1 {
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.bird1 {
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 400px
+
+
+
+
+}
+
+.bird2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 430px
+
+
+}
+
+.headshot {
+  display: block;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 25%;
+  min-width: 200px
+
+
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
