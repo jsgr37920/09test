@@ -1,5 +1,10 @@
 html, body {
-  background-color: #FF6F61FF;
+  background-image: url("Flyerbilleder/background5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-color: lightgrey;
   margin: 10px;
   font-size: 40px;
   font-family: "Tuna"
@@ -22,27 +27,59 @@ h1 {
   color: black;
   font-size: 1.5em;
   font-weight: bold;
-
+  text-align: center;
 }
 
 h2 {
-  color: #6460ab;
-  font-size: 1em;
+  color: white;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 
 }
 
 h3 {
-  color: black;
+  color: #6460ab;
   font-size: 1em;
   font-weight: bold;
+  text-align: center;
+}
 
+#sub {
+  font-size: 0.6em;
+}
+
+#sub2 {
+  font-size: 0.6em;
+}
+
+#sub3 {
+  font-size: 0.6em;
 }
 
 p {
   color: black;
   font-size: 0.5em;
+  margin: 0;
+  width: 70%;
+  margin: auto;
+}
+
+#anni {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+#anni2 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 0.6em;
+}
+
+#om2 {
+  width: 50%;
+margin: 0;
 }
 
 
@@ -54,6 +91,14 @@ p {
   overflow: hidden;
   white-space: nowrap;
 
+}
+
+.stick {
+  width: 30%;
+  max-width: 280px
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -71,6 +116,8 @@ a:link, a:visited {
  padding: 20px 20px;
 
 }
+
+
 
 a:hover{
  color:#6460ab;
@@ -125,36 +172,42 @@ a:hover{
   width: 20%;
 }
 
-.bird1 {
+.mobilbillede {
   display: inline-grid;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  max-width: 400px
+  width: 18.5%;
+}
 
-
-
+.flyer {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 390px
 
 }
 
+
+
 .bird2 {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-width: 430px
 
 
+
 }
 
 .headshot {
-  display: block;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 10px;
+  float: right;
+  margin-right: 50px;
   width: 25%;
   min-width: 200px
-
 
 }
 
@@ -165,4 +218,20 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+
+.kaff {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+	width: 500px;
+	height: 500px;
+	background: url('Flyerbilleder/kaff7.png') 0 0 no-repeat;
+	animation: play 1.5s steps(6) infinite;
+
+}
+@keyframes play {
+	0%{background-position:0px;}
+   100% { background-position: -3000px; }
 }
