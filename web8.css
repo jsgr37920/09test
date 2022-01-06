@@ -1,5 +1,5 @@
 html, body {
-  background-image: url("Flyerbilleder/background5.jpg");
+  background-image: url("Flyerbilleder/background51.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -105,17 +105,17 @@ margin: auto;
 
 #pin {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #pin2 {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #pin3 {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .konta {
@@ -289,6 +289,8 @@ a:hover{
 @media only screen and (max-width: 600px) {
 div {
 flex-wrap: wrap;
+
+
 }
 
 .kaff {
